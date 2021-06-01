@@ -1,0 +1,117 @@
+/** @format */
+
+.Headlineone {
+  text-align: center;
+  font-weight: 900;
+  color:#2E86C1;
+}
+.centerclass{
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 40px;
+  align-items: center;
+  justify-content: center;
+}
+.addressround {
+  margin: 0 auto;
+  margin-top: 40px;
+  width: 60%;
+  min-height: 100px;
+  border: 1px solid rgba(223, 222, 222, 0.397);
+  border-radius: 0.5rem;
+}
+.addressround:hover {
+  -webkit-box-shadow: 0px 5px 12px 0px rgb(223, 222, 222) !important;
+  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow: 0px 5px 12px 0px rgb(223, 222, 222) !important;
+  /* Firefox 3.5 - 3.6 */
+  box-shadow: 0px 5px 12px 0px rgb(223, 222, 222) !important;
+}
+
+.maincont {
+  margin: 0 auto;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+}
+
+.linksharelink {
+  margin-left: 12px;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+  supported by Chrome, Edge, Opera and Firefox */
+}
+.maincont input {
+  border: none;
+  outline: none;
+  font-size: 32px;
+}
+.maincont input::placeholder {
+  color: silver;
+}
+.buttonas:focus{
+  outline: none;
+}
+.buttonas{
+float:right;
+outline: none;
+color: white;
+font-weight: 800;
+border: none;
+border-radius: 50%;
+padding: 12px;
+background: #4BB543;
+}
+.iconcir{
+  color:#4BB543;
+  font-size: 40;
+}
+.free{
+  font-weight: 900;
+  color: silver;
+  margin-top: 20px;
+  text-align: center;
+  padding: 5px;
+}
+@media (max-width: 700px) {
+  .addressround {
+    width: 95%;
+    height: 80px;
+  }
+  .maincont {
+    padding-top: 30px;
+    padding-bottom: 0px;
+  }
+  .maincont img {
+    height: 25px;
+    width: 25px;
+  }
+  .linksharelink {
+    font-size: 18px;
+  }
+  .free{
+    margin-top: 0px;
+    font-size: 22px;
+  }
+  .maincont input {
+    width: 150px;
+    margin-top: -5px;
+    font-size: 18px;
+  }
+.buttonas{
+    padding: 5px;
+    font-weight: 500;
+}
+}
+@media (max-width: 1000px) {
+ .addressround {
+    width: 85%;
+    height: 80px;
+  }
+}
+

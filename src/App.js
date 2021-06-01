@@ -2,12 +2,12 @@
 
 import React from "react";
 import "./App.css";
-import Navbar from "./components/header/Navbar";
+import Main from "./components/Home/Main";
 
 export default function App() {
   return (
     <>
-      <Navbar />
+      <Main />
     </>
   );
 }

@@ -10,17 +10,17 @@ const NavLinks = () => {
         <li className='nav-item '>
           <NavLink
             className='nav-link '
-            to='/repair'
+            to='/help'
             activeStyle={{
               fontWeight: "bold",
               color: "#1a73e8",
             }}>
-            Repair Price
+            Help
           </NavLink>
         </li>
         <li className='nav-item'>
           <a className='nav-link ' href='#'>
-            Become a Vendor
+            Contact Us
           </a>
         </li>
         <li className='nav-item'>
@@ -31,7 +31,7 @@ const NavLinks = () => {
               fontWeight: "bold",
               color: "#1a73e8",
             }}>
-            Get in touch
+            Blog
           </NavLink>
         </li>
         <span

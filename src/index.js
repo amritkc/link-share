@@ -12,11 +12,15 @@ import {
   IndexRoute,
 } from "react-router-dom";
 import reportWebVitals from "./reportWebVitals";
+import Navbar from "./components/header/Navbar";
 
 ReactDOM.render(
   <React.StrictMode>
     <Router>
-      <App />
+      <Navbar />
+      <Route path='/' exact>
+        <App />
+      </Route>
     </Router>
   </React.StrictMode>,
   document.getElementById("root")
